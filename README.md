@@ -2,5 +2,6 @@
 
 
 
-![DR-APIM-Page-1 drawio](https://user-images.githubusercontent.com/17581842/170556202-0f286335-221a-4762-be64-92afa8261a70.png)
+![DR-APIM-Page-1 drawio (1)](https://user-images.githubusercontent.com/17581842/170557020-720243e2-fa26-4083-9898-1374a98a6049.png)
+
 
