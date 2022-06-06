@@ -6,4 +6,24 @@
 
 
 
+## APIM - Origen
 
+![image](https://user-images.githubusercontent.com/17581842/172230750-41772321-f8be-400e-8ae8-378a85aea5f6.png)
+
+## APIM - Destino
+
+![image](https://user-images.githubusercontent.com/17581842/172232262-658833d7-c53e-4137-87fa-3ff0ac1bbba0.png)
+
+
+## Recursos
+
+- Storage Account
+- API Management Origen
+- API Management Destino
+- Logic Apps
+
+
+![image](https://user-images.githubusercontent.com/17581842/172231271-6fd5a256-8f96-4587-b6f7-86248cdca76e.png)
+
+## Configuracion Identidad
+![image](https://user-images.githubusercontent.com/17581842/172233436-7688b63e-ccbc-496d-b425-05789bd50675.png)
