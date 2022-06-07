@@ -46,15 +46,25 @@ Backup - Restore
 
 ![image](https://user-images.githubusercontent.com/17581842/172236995-66d84f54-94de-49e3-ab74-d4af4746f4a4.png)
 
-# Endpoint utilizado para el request: 
+# Endpoint utilizado para la generacion del backup: 
 
 POST https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ApiManagement/service/{serviceName}/backup?api-version={api-version}
 
 
 Enlace de referencia: https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-disaster-recovery-backup-restore
 
+## Verificacion de la respuesta del request
+
+![image](https://user-images.githubusercontent.com/17581842/172274313-e737689e-219a-411d-8b49-72c4a379ff93.png)
 
 
+## Restauracion de la copia de seguridad
+
+![image](https://user-images.githubusercontent.com/17581842/172274441-0c682dab-e80f-4243-9698-44e1d0ddf78e.png)
+
+# Endpoint utilizado para la restauracion del backup: 
+
+POST https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ApiManagement/service/{serviceName}/restore?api-version={api-version}
 
 
 ## Configuracion Identidad
