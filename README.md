@@ -43,7 +43,7 @@ https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{reso
     "accessKey": "{access key for the account}"
 }
 ```
-[Documentacion Oficial](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-disaster-recovery-backup-restore)
+[Documentación Oficial](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-disaster-recovery-backup-restore)
 
 ## Verificación de la respuesta del request
 
