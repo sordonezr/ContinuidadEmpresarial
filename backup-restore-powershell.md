@@ -21,16 +21,15 @@ $storageResourceGroup="storageresourcegroup";
 $containerName="backups";
 $blobName="ContosoBackup.apimbackup"
 ```
-Acceso mediante la clave de acceso de almacenamiento
+## Acceso mediante la clave de acceso de almacenamiento
 
+```
 $storageKey = (Get-AzStorageAccountKey -ResourceGroupName $storageResourceGroup -StorageAccountName $storageAccountName)[0].Value
-
 $storageContext = New-AzStorageContext -StorageAccountName $storageAccountName -StorageAccountKey $storageKey
-
 Backup-AzApiManagement -ResourceGroupName $apiManagementResourceGroup -Name $apiManagementName -StorageContext $storageContext -TargetContainerName $containerName -TargetBlobName $blobName
+```
 
-
-Restaurar el servicio API Management
+# Restaurar el servicio API Management
 
 En los siguientes ejemplos:
 
@@ -38,18 +37,19 @@ Se restaura una instancia de API Management denominada myapim del blob de copia 
 El blob de copia de seguridad está en un contenedor denominado backups.
 Establezca las variables en PowerShell:
 
+```
 $apiManagementName="myapim";
 $apiManagementResourceGroup="apimresourcegroup";
 $storageAccountName="backupstorageaccount";
 $storageResourceGroup="storageresourcegroup";
 $containerName="backups";
 $blobName="ContosoBackup.apimbackup"
+```
 
+## Acceso mediante la clave de acceso de almacenamiento
 
-Acceso mediante la clave de acceso de almacenamiento
-
+```
 $storageKey = (Get-AzStorageAccountKey -ResourceGroupName $storageResourceGroup -StorageAccountName $storageAccountName)[0].Value
-
 $storageContext = New-AzStorageContext -StorageAccountName $storageAccountName -StorageAccountKey $storageKey
-
 Restore-AzApiManagement -ResourceGroupName $apiManagementResourceGroup -Name $apiManagementName -StorageContext $storageContext -SourceContainerName $containerName -SourceBlobName $blobName
+```
