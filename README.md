@@ -25,7 +25,7 @@ Implementar un procedimiento efectivo de recuperación ante desastres es esencia
 La migración de instancias de API Management a nuevas plataformas es una tarea crítica que debe planificarse y ejecutarse con cuidado para evitar interrupciones del servicio. En esta sección, cubriremos:
 
 - 🚀 **Preparación para la Migración**: Pasos necesarios para preparar tu instancia de API Management para la migración, incluyendo la evaluación de dependencias y la planificación de la migración.
-- 🔄 **Ejecución de la Migración**: Procedimientos detallados para migrar una instancia de API Management de una red virtual en la plataforma STv1 a STv2, asegurando la continuidad del servicio y la integridad de los datos.
+- 🔄 **Ejecución de la Migración**: Procedimientos detallados para migrar una instancia de API Management de una red virtual en la plataforma STv1 a STv2, asegurando la continuidad del servicio y la integridad de los datos. [Ver más](https://github.com/sordonezr/BackupRestoreApim/blob/main/migrate-apim-stv1-stv2.md)
 
 ## 🎯 Conclusión
 
