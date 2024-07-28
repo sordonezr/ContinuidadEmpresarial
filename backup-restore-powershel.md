@@ -1,6 +1,7 @@
+---
 Procedimiento para implementar la recuperación ante desastres mediante copias de seguridad y restauración del servicio en Azure API Management
-
-Crear una copia de seguridad del servicio API Management
+---
+# Crear una copia de seguridad del servicio API Management
 
 Inicio de sesión con Azure PowerShell.
 
@@ -12,13 +13,14 @@ Se creará un blob de copia de seguridad con el nombre ContosoBackup.apimbackup.
 
 Establezca las variables en PowerShell:
 
+```
 $apiManagementName="myapim";
 $apiManagementResourceGroup="apimresourcegroup";
 $storageAccountName="backupstorageaccount";
 $storageResourceGroup="storageresourcegroup";
 $containerName="backups";
 $blobName="ContosoBackup.apimbackup"
-
+```
 Acceso mediante la clave de acceso de almacenamiento
 
 $storageKey = (Get-AzStorageAccountKey -ResourceGroupName $storageResourceGroup -StorageAccountName $storageAccountName)[0].Value
