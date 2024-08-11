@@ -10,22 +10,22 @@ En este tutorial, aprenderás a automatizar la recuperación ante desastres en A
 
 La automatización de la recuperación ante desastres no solo reduce el tiempo de inactividad sino que también minimiza el riesgo de pérdida de datos. En esta sección, cubriremos:
 
-- 🛠️ **Configuración de Copias de Seguridad**: Cómo configurar Logic Apps para realizar copias de seguridad automáticas de tu instancia de Azure API Management. [Ver más](https://github.com/sordonezr/ContinuidadEmpresarial/AzureAPIManagement/blob/main/backup-restore-logicapps.md)
-- 🔄 **Restauración Automatizada**: Procedimientos para restaurar automáticamente una instancia de API Management desde una copia de seguridad utilizando Logic Apps. [Ver más](https://github.com/sordonezr/ContinuidadEmpresarial/AzureAPIManagement/blob/main/backup-restore-logicapps.md)
+- 🛠️ **Configuración de Copias de Seguridad**: Cómo configurar Logic Apps para realizar copias de seguridad automáticas de tu instancia de Azure API Management. [Ver más](https://github.com/sordonezr/ContinuidadEmpresarial/blob/main/AzureAPIManagement/backup-restore-logicapps.md)
+- 🔄 **Restauración Automatizada**: Procedimientos para restaurar automáticamente una instancia de API Management desde una copia de seguridad utilizando Logic Apps. [Ver más](https://github.com/sordonezr/ContinuidadEmpresarial/blob/main/AzureAPIManagement/backup-restore-logicapps.md)
 
 ### 2. 🛡️ Procedimiento para Implementar la Recuperación Ante Desastres Mediante Copias de Seguridad y Restauración del Servicio en Azure API Management
 
 Implementar un procedimiento efectivo de recuperación ante desastres es esencial para mantener la continuidad del negocio. En esta sección, aprenderás:
 
-- 🗃️ **Creación de Copias de Seguridad**: Métodos y mejores prácticas para crear y gestionar copias de seguridad de Azure API Management. [Ver más](https://github.com/sordonezr/ContinuidadEmpresarial/AzureAPIManagement/blob/main/backup-restore-powershell.md)
-- ♻️ **Restauración del Servicio**: Procedimiento detallado para restaurar el servicio desde una copia de seguridad, asegurando la mínima interrupción posible. [Ver más](https://github.com/sordonezr/ContinuidadEmpresarial/AzureAPIManagement/blob/main/backup-restore-powershell.md)
+- 🗃️ **Creación de Copias de Seguridad**: Métodos y mejores prácticas para crear y gestionar copias de seguridad de Azure API Management. [Ver más](https://github.com/sordonezr/ContinuidadEmpresarial/blob/main/AzureAPIManagement/backup-restore-powershell.md)
+- ♻️ **Restauración del Servicio**: Procedimiento detallado para restaurar el servicio desde una copia de seguridad, asegurando la mínima interrupción posible. [Ver más](https://github.com/sordonezr/ContinuidadEmpresarial/blob/main/AzureAPIManagement/backup-restore-powershell.md)
 
 ### 3. 🔄 Migración de una Instancia de API Management Insertada en la Red Virtual Hospedada en la Plataforma STv1 a STv2
 
 La migración de instancias de API Management a nuevas plataformas es una tarea crítica que debe planificarse y ejecutarse con cuidado para evitar interrupciones del servicio. En esta sección, cubriremos:
 
 - 🚀 **Preparación para la Migración**: Pasos necesarios para preparar tu instancia de API Management para la migración, incluyendo la evaluación de dependencias y la planificación de la migración.
-- 🔄 **Ejecución de la Migración**: Procedimientos detallados para migrar una instancia de API Management de una red virtual en la plataforma STv1 a STv2, asegurando la continuidad del servicio y la integridad de los datos. [Ver más](https://github.com/sordonezr/ContinuidadEmpresarial/AzureAPIManagement/blob/main/migrate-apim-stv1-stv2.md)
+- 🔄 **Ejecución de la Migración**: Procedimientos detallados para migrar una instancia de API Management de una red virtual en la plataforma STv1 a STv2, asegurando la continuidad del servicio y la integridad de los datos. [Ver más](https://github.com/sordonezr/ContinuidadEmpresarial/blob/main/AzureAPIManagement/migrate-apim-stv1-stv2.md)
 
 ## 🎯 Conclusión
 
